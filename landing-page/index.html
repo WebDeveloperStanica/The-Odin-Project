@@ -69,11 +69,48 @@
                 <h3>Call to action! It's time!</h3>
                 <p>Sign up for our product by clicking that button right over there!</p>
                 <button type="button" class="btn">Sign up</button>
+            </div>
+            <div class="javascript-staff">
+                <button type="button">press me</button>
             </div> 
         </section>
     </main>
     <footer>
         <p>Designed by web-dev-stanica with The Odin Project's help | photos from unsplash | copyright &copy; The Odin Project 2022</p> 
     </footer>
+    <script>
+        // Your JavaScript goes here!
+        ///some variables and numbers examples
+        let a = 10;
+        let b = 7 *a;
+        console.log(b*a);
+
+        const max =57;
+        const actual = max - 13;
+        const percentage = actual/4;
+        console.log(percentage);
+        //Strings representation
+        const string = "The revolution";
+        console.log(string);
+
+        const name = 'Aurelian';
+        const greeting = `buna, ${name}`;
+        console.log(greeting);
+
+        const one = 'Buna, ';
+        const two = 'Ce faci?';
+        const joined = `${one}${two}`;
+        console.log(joined);
+
+        const button = document.querySelector('button');
+
+        function greet() {
+            const name = prompt('What is your name?');
+            alert(`Hello ${name}, nice to see you!`);
+        }
+
+        button.addEventListener('click', greet);
+
+      </script>
 </body>
 </html>
